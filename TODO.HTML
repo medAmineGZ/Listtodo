@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Todo App</title>
+  
+    <link rel="stylesheet" href="TODO.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">ADD NEW PLANS</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Today to do list </h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>08h30 Go to University</label><input type="text"><button class="delete">Done</button></li>
+        <li class="editMode"><input type="checkbox"><label>Attend Class</label><input type="text" value="Attend Class"><button class="delete">Done</button></li>
+        
+      </ul>
+      
+      <h3>Entertainement</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox"><label>Watch Inter Milan Game &#128309 &#9679 </label><input type="text"><button  class="delete">FORZA INTER &#9917</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="TODO.js"></script>
+
+  </body>
+</html>
